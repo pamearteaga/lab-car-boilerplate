@@ -14,6 +14,7 @@ body{
 	background-color: white;
 	border: none;
 	padding: 2% 5%;
+	margin: 0;
 }
 
 
@@ -43,6 +44,8 @@ body{
 }
 
 
+/*******seccion formulario amarillo*********/
+
 .banner{
   
   width: 100%;
@@ -53,17 +56,144 @@ body{
 	padding: 11% 0;
 }
 
+
+
+.registro{
+	color: white;
+	display: inline-block;
+	float: right;
+	padding: 3%;
+}
+
+.registro h1{
+
+	font-size:32px;
+	margin-top: 0;
+}
+
+.registro p{
+
+	text-align: center;
+	font-size: 14px;
+	margin-top: -10px;
+}
+
+.registro button{
+
+	border:none;
+	font-size: 17px;
+	font-weight: 600;
+	color: black;
+}
+
+.logo-text {
+
+	margin-bottom: 2%;
+}
+
+.logo-text h3, .logo-text img{
+
+	display: inline-block;
+}
+
+
+.logo-text img{
+
+	width: 100px;
+	height: auto;
+	margin-top: -10px;
+	margin-left: 12px;
+}
+
+
+
+/******* seccion celular*********/
+
+.celu{
+	color: white;
+	padding: 3% 0;
+}
+
+.celu .container{
+	color: white;
+	margin-left: 0;
+}
+
+.celu h2{
+	font-size: 28px;
+	letter-spacing: 0.02em;
+}
+
+.celu p{
+	font-size: 20px;
+	letter-spacing: 0.02em;
+}
+
+
+.col-borde{
+	padding: 3% 1% 3% 7%;
+	border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+	margin-left: 0;
+}
+
+
+/******* seccion conductor*********/
+
+.driver{
+  
+  width: 100%;
+  height: auto;
+	background-image: url("../assets/images/conduce.jpg");
+	background-size: 100% auto;
+	background-repeat: none;
+	padding: 11% 0;
+}
+
+
+
+
+
+
+/******** atributos genéricos ********/
+
+.padding{
+
+	padding: 20px;
+}
+
 .right {
 	margin-right: 0;
 }
 
-.formulario{
+.left {
+	margin-left: 30px;
+}
+
+.top{
+
+	margin-top: 20px;
+}
+
+.borde{
+	
+	border-bottom: 1px solid white;
+}
+
+.block{
+   
+   display: block;
+}
+
+.inline{
+
+	display:  inline-block;
+}
+
+.yellow{
 
 	background-color: #f7b617;
-	color: white;
-	display: inline-block;
-	float: right;
-	padding: 2%;
 }
 
 
