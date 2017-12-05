@@ -196,6 +196,7 @@ body{
   width: 100%;
   height: auto;
   color: white;
+  letter-spacing: 0.03em;
 	
 }
 
@@ -243,14 +244,16 @@ body{
 
 }
 
+
 .mapa button{
 
 	border:none;
-	margin-top: 20px;
-	font-size: 14px;
-	font-weight: 600;
+	margin-top: 10px;
+	font-size: 13px;
+	font-weight: 700;
 	text-align: center;
 	color: black;
+	padding: 10px 30px;
 }
 
 
@@ -283,15 +286,127 @@ body{
 
 
 
-/******** atributos genéricos ********/
+/********footer ********/
+
+
+footer{
+  
+  width: 100%;
+  height: auto;
+	background-color: #2b2b2b;
+	color: white;
+	
+}
+
+.iconos{
+
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+footer img{
+  
+  margin-bottom: 20px;
+}
+
+footer .container{
+
+	padding: 6%;
+
+}
+
+footer .col-lg-12{
+
+ padding: 0;
+
+}
+
+footer p{
+
+ font-weight: 300;
+ font-size: 14px;
+ letter-spacing: 0.03em;
+
+}
+
+
+/******** estilos de listas ********/
+
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #2b2b2b;
+    border-color:#2b2b2b;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+a.list-group-item, button.list-group-item {
+    color: white;
+
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #2b2b2b;
+    border: 1px solid #2b2b2b;
+}
+bootstrap.css:1100
+a {
+    color: #337ab7;
+    text-decoration: none;
+
+}
+
+a.list-group-item, button.list-group-item {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #2b2b2b;
+    border: 1px solid #2b2b2b;
+}
+
+
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+    color: #f7b617;
+    text-decoration: none;
+    background-color: #2b2b2b;
+}
+
+
+
+
+
+/******** estilos genéricos ********/
 
 .padding{
 
 	padding: 20px;
 }
 
-.right {
+
+.margin-right{
+
 	margin-right: 0;
+}
+
+.right {
+	float: right;
 }
 
 .left {
@@ -324,4 +439,31 @@ body{
 }
 
 
+
+
+/******** MEDIA QUERY ********/
+
+
+
+
+@media (min-width: 1300px) {
+
+	.banner{
+  
+  background-position: center;
+}
+	
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+
+	.banner{
+  
+  
+	background-size: 130% auto;
+	background-repeat: none;
+	background-position: center;
+}
+	
+}
 
