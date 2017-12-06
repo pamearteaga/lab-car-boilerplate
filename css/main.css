@@ -19,7 +19,7 @@ body{
 
 }
 
-.modal-content button{
+.modal-body button{
    
    background-color: #f7b617;
    text-align: center;
@@ -41,6 +41,7 @@ body{
    
    color: white;
    text-align: center;
+   margin-bottom: 0;
 
 }
 
@@ -88,11 +89,39 @@ body{
 
 }
 
+.form .dropdown-toggle{
+
+	margin-top:20px;
+  background-color: #ccc;
+  border: none;
+   
+}
 
 
 .modal-header, .modal-footer{
     
     border:none;
+}
+
+.azul{
+
+  background-color: #26dfba;
+  margin-top: 20px;
+  width: 80%;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.dos{
+	margin-top: 0;
+
+}
+
+.p {
+
+	margin-top: 20px;
+
 }
 
 
@@ -355,6 +384,7 @@ body{
 .mapa .col-lg-12{
 
   margin-top: 20px;
+  padding-left: 0px;
 
 }
 
