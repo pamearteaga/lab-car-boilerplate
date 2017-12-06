@@ -38,17 +38,54 @@
      
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- navegador -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="#">Viaja<span class="sr-only">(current)</span></a></li>
         <li><a href="#">Conduce</a></li>
-        <li><a href="#">Inicia sesión</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#inicioSesion">Inicia sesión</a></li>
       </ul>
      </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>    
   </header>
+
+
+  
+<!-- Modal INICIO SESIÓN-->
+  <div id="inicioSesion" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- contenido modal -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/images/yo.png" class="img-responsive" align="center">
+          <h2>¡Bienvenido!</h2>
+
+           <div class="form">
+             <div class="input-group">
+             <input type="text" class="form-control" placeholder="Usuario" aria-describedby="basic-addon1">
+            </div>
+
+             <div class="input-group">
+             <input type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+            </div>
+
+           </div><!-- form -->
+           <button type="button" class="btn btn-default" data-dismiss="modal">LOGIN</button>
+        </div>
+        <div class="modal-footer">
+         <p>¿Forgot password? <a href="#">Click here.</a></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   <!-- seccion registros -->
 
   <section class="banner">
   	<div class="container margin-right">
@@ -83,7 +120,7 @@
   </section>
 
 
-
+<!-- seccion imagen celular-->
 
   <section class="celu yellow">
 
@@ -117,7 +154,7 @@
   	</div>	
   </section>
 
-
+<!-- seccion conductor -->
   <section class="driver">
   	<div class="row">
   		<div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 textdriver p">
@@ -129,7 +166,7 @@
   </section>
 
 
-
+<!-- seccion mapa/ubicacion -->
   <section class="mapa yellow">
   	<div class="container">
   		<div class="row">
@@ -171,7 +208,7 @@
   </section>
 
 
-
+<!-- seccion pie de pagina-->
   <footer>
     <div class="container">
       <div class="row">

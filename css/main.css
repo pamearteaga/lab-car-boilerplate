@@ -9,6 +9,97 @@ body{
 }
 
 
+/********Estilo modales**********/
+
+
+.modal-content{
+   
+   background-color: #333;
+   text-align: center;
+
+}
+
+.modal-content button{
+   
+   background-color: #f7b617;
+   text-align: center;
+   color: black;
+   font-weight: 700;
+   font-size: 16px;
+
+
+}
+
+.modal-content h2{
+   
+   color: white;
+   text-align: center;
+
+}
+
+.modal-content p{
+   
+   color: white;
+   text-align: center;
+
+}
+
+.modal-content a{
+   
+   color: #f7b617;
+   text-decoration: none;
+
+}
+
+.modal-content a:hover{
+   
+   color: white;
+
+}
+
+.modal-content img{
+   
+   width: 30%;
+   height: auto;
+   margin: 0 35%;
+
+}
+
+.form{
+  
+  width: 50%;
+  height: auto;
+  margin: 4% 0 4% 25%;
+  
+
+ } 
+
+.form .form-control {
+   
+   margin-top:20px;
+   background-color: #333;
+   width: 100%;
+
+}
+
+.form .input-group {
+   
+   width: 100%;
+
+}
+
+
+
+.modal-header, .modal-footer{
+    
+    border:none;
+}
+
+
+
+/********Estilo navegador**********/
+
+
 .navbar-default{
 
 	background-color: white;
